@@ -10,6 +10,8 @@
 
 #define USER_BTN 15
 
+#define USER_BTN_1 16
+
 USBHIDConsumerControl ConsumerControl;
 USBHIDKeyboard Keyboard;
 USBHID HID;
