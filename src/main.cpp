@@ -60,15 +60,8 @@ void loop() {
     }
     lastMuteState = currentMuteState;
 
-    bool currentDiscordMuteState = digitalRead(BTN_MUTE_DISCORD);
-    if (currentDiscordMuteState == LOW && lastDiscordMuteState == HIGH) {
-        discordMuteState = !discordMuteState;
-        Serial.println(discordMuteState ? "Discord Mute ON" : "Discord Mute OFF");
-        Keyboard.press(KEY_LEFT_ALT);
-        Keyboard.press('k');
-        delay(100);
-        Keyboard.releaseAll();
-        delay(10);
-    }
-    lastDiscordMuteState = currentDiscordMuteState;
+    /*
+    TODO
+    */
+
 }
