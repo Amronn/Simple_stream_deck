@@ -8,9 +8,6 @@
 #define BTN_MUTE          12  // GPIO dla wyciszania
 #define BTN_MUTE_DISCORD  13  // GPIO dla wyciszania Discorda
 
-#define USER_BTN 15
-
-#define USER_BTN_1 16
 
 USBHIDConsumerControl ConsumerControl;
 USBHIDKeyboard Keyboard;
